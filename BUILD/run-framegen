@@ -1,6 +1,0 @@
-# Sorry. This ins't built into Unity yet, so this is more of a hack to show this proof of concept. I just had some ideas and wanted to see how they worked.
-
-tail -f ~/.config/unity3d/*/*/Player.log &
-LSFG_DLL_PATH="...Lossless.dll" ENABLE_LSFG=1 LSFG_LOG_FILE=log performance_mode=true LSFG_MULTIPLIER=2 ./build.x86_64 -force-vulkan
-# 30 * 4 = 120 - This is too far.
-# 30 *2 = 60 - Remember we have the responsiveness of a high frame rate
